@@ -55,6 +55,7 @@ nav li a{
 .li-home{
     color:#FF5400
 }
+/*banner section style*/
 .banner-section{
     background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)),url(images/Group\ 13\ \(1\)\ \(1\).png);
     background-position: center;
@@ -66,6 +67,7 @@ nav li a{
  
     width: 70rem;
     height: 30rem;
+  
       
 }
 .banner-text{
@@ -130,6 +132,180 @@ nav li a{
     font-weight: 700;
     border: none;
 
+
 }
 
+/*popular section style*/
+.popular-section{
+
+    display: flex;
+}
+.popular-text{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.popular-text h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+.popular-text button{
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+
+
+}
+.popular-section img{
+    margin-right: 50px;
+}
+/*choose section style*/
+.choose-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.choose-text h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+.choose-text p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+
+.first-img{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(images/Rectangle\ 5.png);
+    width: 35.8125rem;
+    height: 18.75rem; 
+}
+.first-img h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+.second-img{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(images/Rectangle\ 8.png);
+    width: 35.8125rem;
+    height: 18.75rem;
+
+}
+.second-img h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.first-img-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+
+}
+.third-img{
+    background-image: url(images/Rectangle\ 6.png);
+    width: 23.375rem;
+    height: 17.875rem;
+
+}
+.third-img h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+.fourth-img{
+    background-image: url(images/Rectangle\ 7.png);
+    width: 29.625rem;
+    height: 17.875rem;
+
+
+}
+.fourth-img h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+.fivth-img{
+    background-image: url(images/Rectangle\ 9.png);
+    width: 17.125rem;
+    height: 17.875rem;
+}
+.fivth-img h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+.second-img-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.sixth-img{
+    background-image: url(images/Rectangle\ 11.png);
+    width: 29.5625rem;
+    height: 18.75rem;
+
+}
+.sixth-img h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+.seventh-img{
+    background-image: url(images/Rectangle\ 10.png);
+    width: 42.0625rem;
+    height: 18.75rem;
+
+   
+
+
+}
+.seventh-img h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+.third-img-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
     
