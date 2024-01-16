@@ -7,7 +7,7 @@
 }
 header{
     width: 90rem;
-    height: 434rem;
+    height: 400rem;
 }
 .text-light-gray{
     color: #727272;
@@ -57,16 +57,17 @@ nav li a{
 }
 /*banner section style*/
 .banner-section{
-    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)),url(images/Group\ 13\ \(1\)\ \(1\).png);
-    background-position: center;
-    margin-top: 50px;
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)),url(images/Group\ 13\ \(1\)\ \(1\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+    /*margin-top: 50px;*/
     margin-left: 110px;
     padding-right: 20px; 
     
     border-radius: 1rem;
  
     width: 70rem;
-    height: 30rem;
+    height: 100rem;
   
       
 }
@@ -139,6 +140,7 @@ nav li a{
 .popular-section{
 
     display: flex;
+  
 }
 .popular-text{
     margin-left: 100px;
@@ -422,4 +424,40 @@ button{
     align-items: center;
  
 }
+/*footer section style*/
+.footer-section{
+    width: 90rem;
+    height: 30rem;
+    
+    /*width: 70rem;
+    height: 30rem;*/
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 60px;
+    border-radius: 1rem;
+    padding-top: 100px;
+    
+ 
+
+
+}
+.logo-section{
+    
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    
+     
+}
+.footer-text p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 30px;
+    
+
+}
+    
+
+
 
