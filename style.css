@@ -308,4 +308,79 @@ nav li a{
     gap: 1.5rem;
     margin-top: 1.5rem;
 }
+/*why choose section style*/
+
+.why-choose-text h2{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+
+}
+.why-choose-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+ .box1{
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+   
+
+}
+.box1 h3{
     
+
+}
+
+
+
+
+.box2{
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+.box-section, .box-description{
+   margin: 50px 30px;
+    
+}
+.box-description > h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+.box-description > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+}
+.first-box-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+} 
+.second-box-section{
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-top: 1.5rem;
+    margin-left: 30%;
+  
+    
+}
