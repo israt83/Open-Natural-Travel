@@ -7,7 +7,7 @@
 }
 header{
     width: 90rem;
-    height: 400rem;
+   height: 45rem;
 }
 .text-light-gray{
     color: #727272;
@@ -57,17 +57,17 @@ nav li a{
 }
 /*banner section style*/
 .banner-section{
-        background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)),url(images/Group\ 13\ \(1\)\ \(1\).png);
-        background-position: center;
-        background-repeat: no-repeat;
-    /*margin-top: 50px;*/
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)),url(images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+   
+    margin-top: 50px;
     margin-left: 110px;
     padding-right: 20px; 
     
     border-radius: 1rem;
  
     width: 70rem;
-    height: 100rem;
+    height: 30rem;
   
       
 }
@@ -166,7 +166,7 @@ button{
 
 }
 .popular-section img{
-    margin-right: 50px;
+    margin-right: 80px;
 }
 /*choose section style*/
 .choose-text{
@@ -328,17 +328,13 @@ button{
 }
 
 
- .box1{
+.box1{
     width: 35.8125rem;
     height: 17.75rem;
     border-radius: 1rem;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
    
-
-}
-.box1 h3{
-    
 
 }
 
@@ -354,7 +350,7 @@ button{
 
 }
 .box-section, .box-description{
-   margin: 50px 30px;
+   margin: 30px 30px;
     
 }
 .box-description > h3{
@@ -368,6 +364,7 @@ button{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem; 
+  
 }
 .first-box-section{
     display: flex;
@@ -424,6 +421,94 @@ button{
     align-items: center;
  
 }
+/*news letter section style*/
+.newsletter-form{
+    width: 30.625rem;
+    height: 26.375rem;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    margin-top: 4rem;
+    margin-left: 2rem;
+
+}
+.newsletter-form > hr{
+    width: 24.5625rem;
+    height: 0.0625rem;
+    background: rgba(19, 19, 24, 0.10);
+}
+.newsletter-form > h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 2.5rem;
+    
+
+}
+.newsletter-form > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    
+}
+.newsletter-form > input{
+    width: 24.5625rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    text-align: center;
+    color: #1313184D;
+
+}
+.newsletter-form button{
+    width: 24.5625rem;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.newsletter-img{
+    background-image: url(images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 46rem;
+    height: 26.375rem;
+    /*border-radius: 1rem;*/
+    margin-top: 4rem;
+    
+  
+
+}
+.newsletter-img button{
+    width: 20.25rem;
+    height: 7.5rem;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 16rem;
+    margin-left: 21.3rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.8rem; 
+}
+
+.newsletter-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 3.5rem;
+    
+  
+
+}
+
+
 /*footer section style*/
 .footer-section{
     width: 90rem;
@@ -457,7 +542,29 @@ button{
     
 
 }
+.footer-icon{
     
+    font-size: 38px;
+   
+    
+    margin-left: 650px;
+    margin-top: 50px;
+
+} 
+hr{
+    background: rgba(19, 19, 24, 0.10);
+    width: 54.5rem;
+    height: 0.0625rem;
+    margin-top: 50px;
+}
+p{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+
+}
 
 
 
