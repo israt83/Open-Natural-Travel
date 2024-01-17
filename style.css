@@ -573,16 +573,48 @@ p{
 /*mobile devices*/
 @media  screen and (max-width:600px){
     .nav-bars{
-
+        display: block;
+        font-size: 30px;
+        margin-right: 550px;
+        
     }
+    .logo-travel{
+        margin-right: 80px;
+    }
+    nav ul > li{
+        display: none;
+    }   
     .banner-section{
-     
-        max-width: 300px;
+        background-position: center;
+        width:400px ;
         height: 500px;
-       
+        margin-left: 80px;
+        margin-right: 250px;
     }
+    .banner-title{
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        font-size: 0.6rem;
+    }
+    .input-box,
+    .input-btn{
+        width: 15rem;
+        height: 2.40rem;
+    }
+  
+    .input-section{
+        background: none;
+        margin-top: 10px;
+        flex-direction: column;
+        
+        
+        
+    }
+
     
-    .logo-section,
+    
     .nav > ul,
     .popular-section,
     .first-box-section,
@@ -595,10 +627,12 @@ p{
     }
 
     .popular-section img{
-        max-width: 300px;
-        margin-top: 50px;
-       
         
+        margin-top: 50px;
+        margin-left: 100px;   
+    }
+    .popular-text ul > li, p{
+        text-align: left;
     }
  
     .third-img{
@@ -607,11 +641,39 @@ p{
         background-repeat: no-repeat;
       
     }
-    .second-box-section{
-        
-        margin-right: 100px;
+    .first-box-section{
+        margin-left: 20px;
     }
+    .second-box-section{
+        margin-left: -6%;
+    }
+    .place-video{
+        margin-top: 30px;
+        
+    }
+    .newsletter-section{
+        align-items: center;
+        margin-right: 70px;
+    }
+    .footer-section{
+        width: 36rem;
+    
+        height: 30rem;
+  
+    }
+    .footer-icon{
+    
+        font-size: 38px;
+       
+        
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    hr{
+        width: 30rem;
+    }
+    p{
+        text-align: center;
+    } 
 }
-
-
 
