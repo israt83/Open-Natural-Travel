@@ -19,6 +19,10 @@ nav{
     background: #FFF;
     margin-right: 40px;
 }
+.nav-bars{
+    display: none;
+
+}
 .logo-section{
     display: flex; 
     
@@ -564,6 +568,49 @@ p{
     text-align: center;
     margin-top: 50px;
 
+}
+/*responsive media queries*/
+/*mobile devices*/
+@media  screen and (max-width:600px){
+    .nav-bars{
+
+    }
+    .banner-section{
+     
+        max-width: 300px;
+        height: 500px;
+       
+    }
+    
+    .logo-section,
+    .nav > ul,
+    .popular-section,
+    .first-box-section,
+    .place-section,
+    .newsletter-section,
+    .first-img-column,
+    .second-img-column,
+    .third-img-column{
+        flex-direction: column;
+    }
+
+    .popular-section img{
+        max-width: 300px;
+        margin-top: 50px;
+       
+        
+    }
+ 
+    .third-img{
+        max-width: 35.8125rem;
+        height: 18.75rem;
+        background-repeat: no-repeat;
+      
+    }
+    .second-box-section{
+        
+        margin-right: 100px;
+    }
 }
 
 
